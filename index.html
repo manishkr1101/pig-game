@@ -10,11 +10,17 @@
     </head>
 
     <body>
+
         
         <div class="container">
             <div class="player-container">
-                <div class="player-1-panel active">
-                    <div class="player-name" id="name-1">Player 1</div>
+                <div class="player-1-panel"><!-- //has been set active in js -->
+
+                    <div class="player-name" id="name-1">
+                        <!-- why inside div are not working -->
+                        <span>Player 1</span>
+                        <div class="dot"></div>
+                    </div>
 
                     <div class="player-score" id="score-1">01</div>
 
@@ -31,7 +37,10 @@
 
             <div class="player-container">
                 <div class="player-2-panel">
-                    <div class="player-name" id="name-2">Player 2</div>
+                    <div class="player-name" id="name-2">
+                        <span>Player 2</span>
+                        <div class="dot"></div>
+                    </div>
 
                     <div class="player-score" id="score-2">03</div>
 
@@ -50,14 +59,24 @@
             <button class="btn-hold">hold</button>
 
             <img src="dice-5.png" class="dice-image">
-        
 
+            <input type="number" name="winningScore" value="" placeholder="enter score">
 
 
 
         </div>
 
-
+        <footer>
+            
+            <div class="image-button">
+                <div class="btn-image">
+                    <img src="github-icon.png" class="">
+                </div>
+                <div class="btn-text">
+                    <a href="https://github.com/manishkr1101/pig-game"  title="Check out for Rules">Github</a>
+                </div>
+            </div>
+        </footer>
 
 
         <script src="app.js"></script>
