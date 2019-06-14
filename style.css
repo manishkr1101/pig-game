@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    /*background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);*/
+    /*background-image: url("back.jpg");*/
+    background-color: #b1a07c;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    color: #555;
+}
+
+.container{
+    position: absolute;
+    
+    top: 50%;
+    transform: translateY(-50%);
+    /*position: relative;*/
+    background-color: white;
+    width: 70%;
+    min-width: 50%;
+    margin: 0 15%;
+    border-style: none;
+    box-shadow: 0 0 40px 5px #ba9494;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.player-container{
+    width: 49.8%;
+    display: inline-block;
+}
+
+.player-1-panel{
+    text-transform: uppercase;
+    padding: 20% 15%;
+    
+}
+
+.player-name{
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.player-score{
+    font-size: 6rem;
+    color: #EB4D4D;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+
+.player-current-box{
+    width: 30%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #EB4D4D;
+}
+
+.player-current-label{
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.player-current-score{
+    margin: 5px;
+    font-size: 2rem;
+    color: white;
+}
+
+
+.player-2-panel{
+    text-transform: uppercase;
+    padding:20% 15%;
+}
+
+.active {
+    background-color: #f7f7f7;
+    font-weight: 700;
+}
+
+button{
+    position: absolute;
+    left: 43%;
+    cursor: pointer;
+    width: 14%;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    background: none;
+    border:none;
+
+}
+
+button:hover{
+    font-weight: 800;
+   
+}
+
+button:focus{
+    outline: none;
+}
+
+.btn-new{
+    top: 45px;
+    /*font-family: Lato;*/
+}
+
+.btn-roll{
+    bottom: 32%;
+}
+
+.btn-hold{
+    bottom: 22%;
+}
+
+.dice-image{
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    width: 10%;
+    box-shadow: 0 0 20px 5px #e1c9c9;
+}
