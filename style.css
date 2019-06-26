@@ -19,7 +19,7 @@ body{
     /*position: relative;*/
     background-color: white;
     width: 70%;
-    min-width: 50%;
+    min-width: 1080px;
     margin: 0 15%;
     border-style: none;
     box-shadow: 0 0 40px 5px #ba9494;
